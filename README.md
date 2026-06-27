@@ -33,7 +33,7 @@ Built with LangChain, Google Gemini, FAISS, and Gradio, it delivers accurate ans
 ## Tech Stack
 
 - **LangChain** – Orchestrates the RAG pipeline.
-- **Google Generative AI (Gemini)** – Embeddings (`embedding-001`) and chat model (`gemini-1.5-flash`).
+- **Google Generative AI (Gemini)** – Embeddings (`gemini-embedding-001`) and chat model (`gemini-2.5-flash`).
 - **FAISS** – Local vector store for fast similarity search.
 - **PyPDF** – PDF loading and text extraction.
 - **Gradio** – Interactive web UI.
@@ -43,7 +43,7 @@ Built with LangChain, Google Gemini, FAISS, and Gradio, it delivers accurate ans
 
 ## Prerequisites
 
-- Python 3.8 or higher
+- Python 3.9 or higher
 - A valid **Google API Key** with access to the Generative AI services (Gemini)
 - (Optional) A virtual environment for isolated dependency management
 
@@ -60,9 +60,16 @@ Built with LangChain, Google Gemini, FAISS, and Gradio, it delivers accurate ans
    ```
 
 3. **Install required packages**:
-   ```bash
-   pip install langchain langchain-community langchain-google-genai gradio faiss-cpu pypdf python-dotenv
-   ```
+
+   **Option 1 — Install directly:**
+```bash
+   pip install langchain langchain-community langchain-google-genai gradio==4.19.2 faiss-cpu pypdf python-dotenv huggingface_hub==0.20.3
+```
+
+   **Option 2 — Install from requirements.txt:**
+```bash
+   pip install -r requirements.txt
+```
 
    > Note: If you have GPU, you may replace `faiss-cpu` with `faiss-gpu`.
 
