@@ -19,7 +19,7 @@ Built with LangChain, Google Gemini, FAISS, and Gradio, it delivers accurate ans
 
 ---
 ## Demo
-![BharatDocs in action](RAG-DEMO.png)
+![BharatDocs in action](multilingual-rag/RAG-DEMO.png)
 ## Features
 
 - **PDF Processing** – Upload a PDF, automatically split into manageable chunks.
