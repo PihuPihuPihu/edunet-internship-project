@@ -7,7 +7,7 @@ Built with LangChain, Google Gemini, FAISS, and Gradio, it delivers accurate ans
 ---
 
 ## Table of Contents
-
+- [Demo](#demo)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Prerequisites](#prerequisites)
@@ -18,7 +18,8 @@ Built with LangChain, Google Gemini, FAISS, and Gradio, it delivers accurate ans
 - [License](#license)
 
 ---
-
+## Demo
+![BharatDocs in action](RAG-DEMO.png)
 ## Features
 
 - **PDF Processing** – Upload a PDF, automatically split into manageable chunks.
