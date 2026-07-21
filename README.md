@@ -139,4 +139,4 @@ Feel free to use, modify, and distribute it for educational and non‑commercial
 ---
 
 **Built by Avantika Rana** | IBM SkillsBuild x AICTE Internship Project  
-*Powered by LangChain, Google Gemini, FAISS, and Gradio*
+*Powered by LangChain, Google Gemini, FAISS, & Gradio*
